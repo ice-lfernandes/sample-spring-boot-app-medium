@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sample-spring-boot-app-medium
+  title: sample-spring-boot-app-medium
+  tags:
+    - spring-boot
+    - java
+    - maven
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
